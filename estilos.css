@@ -1,0 +1,15 @@
+body {
+  border: 1px solid red;
+  margin: 0;
+}
+.wrapper {
+  max-width: 1200px;
+  margin: auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+  border: 1px solid blue;
+}
