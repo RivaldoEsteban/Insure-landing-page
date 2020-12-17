@@ -1,6 +1,21 @@
 body {
-  border: 1px solid red;
   margin: 0;
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+}
+h1 {
+  /* color: hsl(0, 0%, 98%); */
+  font-size: 70px;
+}
+h2,
+h3,
+h4,
+h5 {
+  color: hsl(256, 26%, 20%);
+}
+p {
+  color: ;
+  line-height: 30px;
 }
 .wrapper {
   max-width: 1200px;
@@ -11,5 +26,118 @@ body {
   justify-content: space-between;
   align-items: center;
   margin: 20px 0;
-  border: 1px solid blue;
+}
+.header-text  a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: gray;
+  text-transform: uppercase;
+}
+.header-button {
+  border: 1px solid black;
+  background: white;
+  text-transform: uppercase;
+  padding: 10px 20px;
+}
+.section-principal-container {
+  background: hsl(256, 26%, 20%);
+  background-image: url('images/bg-pattern-intro-left-desktop.svg'), url('images/bg-pattern-intro-right-desktop.svg');
+  background-position: left bottom -250px, top right;
+  background-size: 230px, 400px;
+  background-repeat: no-repeat;
+}
+.section-principal {
+  display: flex;
+}
+.message-principal {
+  color: white;
+  width: 550px;
+  /* line-height: 25px; */
+  margin: auto;
+}
+.message-principal h1 {
+  font-size: 70px;
+  font-weight: 700;
+  margin: 0;
+  color: hsl(0, 0%, 98%);
+}
+.message-principal button {
+  border: 1px solid white;
+  background: hsl(256, 26%, 20%);
+  color: white;
+  padding: 10px 30px;
+  font-size: 20px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-weight: 400;
+
+}
+.body-differences {
+  margin-top: 200px;
+}
+.differences-items {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+.differences-items p {
+  color: hsl(273, 4%, 51%);
+}
+.body-work {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: hsl(256, 26%, 20%);
+  padding: 50px 100px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  background-image: url('images/bg-pattern-how-we-work-desktop.svg');
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 550px;
+}
+.body-work h1 {
+  width: 470px;
+  color: hsl(0, 0%, 98%);
+  font-size: 50px;
+}
+.body-work button {
+  border: 1px solid white;
+  background: hsl(256, 26%, 20%);
+  color: white;
+  padding: 10px 30px;
+  font-size: 20px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.footer-container {
+  background: rgba(244, 245, 239, 0.931);
+  padding: 50px 0;
+  background-image: url('images/bg-pattern-footer-desktop.svg');
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 550px;
+}
+.footer-logo-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid gray;
+  height: 80px;
+}
+.footer-icons {
+  display: flex;
+}
+.footer-icons svg {
+  margin: 0 8px;
+}
+.footer-menu {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+.image-principal {
+  position: relative;
+  top: 100px;
 }
